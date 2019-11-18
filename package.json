@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Build-Week-Project/Backend/issues"
   },
-  "homepage": "https://github.com/Build-Week-Project/Backend#readme"
+  "homepage": "https://github.com/Build-Week-Project/Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.2",
+    "sqlite3": "^4.1.0"
+  }
 }
