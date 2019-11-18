@@ -24,9 +24,9 @@ describe("server", function() {
       });
     });
 
-    it("Should return {Message: 'API is running'}", function() {
+    it("Should return {Message: 'API is running'}", 
+      async  function() {
       const res = await request(server).get('/');
-      expect(res.body.api).toBe( 'API is running' )
       expect(res.body).toEqual({ Message: 'API is running' });
     });
   });
