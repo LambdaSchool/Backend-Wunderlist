@@ -1,10 +1,12 @@
 {
-  "name": "Backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js",
+    "test": "cross-env DB_ENV=testing jest --watchAll",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,10 @@
   "homepage": "https://github.com/Build-Week-Project/Backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
     "helmet": "^3.21.2",
+    "jest": "^24.9.0",
     "knex": "^0.20.2",
     "sqlite3": "^4.1.0"
   }
