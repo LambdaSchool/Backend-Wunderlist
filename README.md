@@ -42,11 +42,12 @@
 | PUT     	| /api/todo/tasks/{taskId}                   	| Updates a task                                    	|
 | DELETE  	| /api/todo/tasks/{taskId}             	        | Deletes a task                                    	|
 
-*** Base URL ***
-
-[https://wunderlist-2-0-be.herokuapp.com/]
 
 # ENDPOINTS DESCRIPTION
+
+## Base URL 
+
+[https://wunderlist-2-0-be.herokuapp.com/]
 
 ## USER ENDPOINTS
 
