@@ -7,6 +7,7 @@ it("Should set the database to a testing environment", function() {
 });
 
 describe("server", function() {
+  
   describe("GET /", function() {
     it("should return 200 OK", function() {
       return request(server)
