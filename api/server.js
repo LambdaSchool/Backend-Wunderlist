@@ -19,7 +19,7 @@ server.use('/api/users', authenticate, usersRouter);
 server.use('/api/todo', authenticate, tasksRouter);
 
 server.get('/', (req, res) => {
-    res.status(200).json({ Message: 'API is running' });
+    res.status(200).json({ Message: 'Server is running' });
 });  
 
 module.exports = server;

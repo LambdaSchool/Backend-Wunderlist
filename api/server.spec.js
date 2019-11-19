@@ -24,10 +24,10 @@ describe("server", function() {
       });
     });
 
-    it("Should return {Message: 'API is running'}", 
+    it("Should return {Message: 'Server is running'}", 
       async  function() {
       const res = await request(server).get('/');
-      expect(res.body).toEqual({ Message: 'API is running' });
+      expect(res.body).toEqual({ Message: 'Server is running' });
     });
   });
 });
