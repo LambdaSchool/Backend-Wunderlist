@@ -1,4 +1,4 @@
-## WUNDERLIST 2.0 | BE
+## WUNDERLIST 2.0 | BE.
 
 # Users Schema
 
