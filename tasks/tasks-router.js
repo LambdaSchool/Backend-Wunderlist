@@ -100,7 +100,7 @@ tasksRouter.post('/users/:id/tasks', validateUserId, validateTaskInfo, (req, res
     const { id } = req.params;
     const {title, completed} = req.body;
     
-    tasksModel.addTask({title, completed, user_id: id, created_at: moment().format('MM-DD-YYYY')})
+    tasksModel.addTask({title, completed, user_id: id, created_at: moment().format('MMMM Do YYYY, h:mm:ss a')})
     .then(item => {
         console.log("added item", item);
         res.status(200).json(item);
